@@ -1,3 +1,4 @@
 h1{
+    echo "Ligne 1" >> fichier1
     color: blue;
 }
