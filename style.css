@@ -2,3 +2,19 @@ h1{
     echo "Ligne 1" >> fichier1
     color: blue;
 }
+
+nav li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: large;
+    margin-left: 8px;
+}
+
+nav ul{
+    text-align: center;
+    padding: 0;
+}
+
+nav li:first-of-type{
+    margin-left: 0;
+}
